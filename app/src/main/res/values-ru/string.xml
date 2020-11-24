@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фитнес Трекер</string>
+    <string-array name="filter_options">
+        <item>Дата</item>
+        <item>Время пробежки</item>
+        <item>Дистанция</item>
+        <item>Средняя скорость</item>
+        <item>Калорий сожжено</item>
+    </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD9f5fAkELH20KIxRs1S7OJCdtDzOjV1vo</string>
+    <!--    statistic fragment-->
+    <string name="total_distance_statistic">Общая дистанция</string>
+    <string name="_0km_statistic">0км</string>
+    <string name="total_time_statistic">Общее время</string>
+    <string name="total_avg_time_statistic">00:00:00</string>
+    <string name="total_calories_burned_statistic">В общем калорий сожженно</string>
+    <string name="total_cal_statistic">0ккал</string>
+    <string name="average_speed_statistic">Средняя скорость</string>
+    <string name="total_average_speed_statistic">0км/ч</string>
+
+    <!--    run fragment-->
+    <string name="sort_by_run_fragment">Сортировать по:</string>
+
+    <!--    setting_fragment-->
+    <string name="your_name_setting_fragment">Ваше имя</string>
+    <string name="your_weight_setting_fragment">Ваш вес (кг)</string>
+    <string name="apply_changes_btn_setting_fragment">Применить</string>
+
+    <!--    setup fragment-->
+    <string name="welcome_text_setup_fragment">Добро пожаловать!\nВведите Ваш вес и имя.</string>
+    <string name="continue_setup_fragment">Продолжить</string>
+
+    <!--    run fragment-->
+    <string name="timer_run_fragment">00:00:00:00</string>
+    <string name="start_btn_run_fragment">Старт</string>
+    <string name="finish_run_btn_run_fragment">Закончить</string>
+    <string name="let_s_go_username_toolbar_run_fragment">Давай, USERNAME!</string>
+
+    <!--    item run-->
+    <string name="date_item_run">ДАТА</string>
+    <string name="time_item_run">ВРЕМЯ</string>
+    <string name="distance_item_run">ДИСТАНЦИЯ</string>
+    <string name="avgspeed_item_run">СРЕДНЯЯ СКОРОСТЬ</string>
+    <string name="calories_item_run">КАЛОРИИ</string>
+
+    <!--    marker_view-->
+    <string name="date_marker_view">ДАТА</string>
+    <string name="duration_marker_view">ПРОДОЛЖИТЕЛЬНОСТЬ</string>
+    <string name="avg_speed_marker_view">СРЕДНЯЯ СКОРОСТЬ</string>
+    <string name="distance_marker_view">ДИСТАНЦИЯ</string>
+    <string name="calories_burned_marker_view">КАЛОРИЙ СОЖЖЕННО</string>
+
+    <!--    cancelTrackingDialog-->
+    <string name="cancelTrackingDialog_cancel_run">Отменить пробежку?</string>
+    <string name="cancelTrackingDialog_are_you_sure">Вы уверены в отмене пробежки, при отмене удалятся все данные?</string>
+    <string name="cancelTrackingDialog_yes">Да</string>
+    <string name="cancelTrackingDialog_no">Нет</string>
+
+    <!--    RunFragment-->
+    <string name="run_fragment_permission">Вы должны разрешить получать данные о местоположении</string>
+
+    <!--    SettingsFragment-->
+    <string name="settings_fragment_saved">Изменения схранены</string>
+    <string name="settings_fragment_fill_fields">Пожалуйста заполните бланки</string>
+    <string name="settings_fragment_toolbar_lets_go">\"Давай, \"</string>
+
+    <!--    StatisticsFragment-->
+    <string name="statistics_fragment_description">Средняя скорость за все время</string>
+
+    <string name="km">км</string>
+    <string name="kmh">км/ч</string>
+    <string name="kcal">ккал</string>
+    <string name="tracking_fragment_timer">00:00:00:00</string>
+    <string name="tracking_fragment_start">Старт</string>
+    <string name="tracking_fragment_stop">Стоп</string>
+    <string name="tracking_fragment_save_success">Пробежка сохранена успешно</string>
+
+    <!--    bottomNav-->
+    <string name="your_runs_bottom_nav">Ваша пробежка</string>
+    <string name="statistics_bottom_nav">Статистика</string>
+    <string name="settings_bottom_nav">Настройки</string>
+
+    <!--    toolbar-->
+    <string name="cancel_run_toolbar">Отменить пробежку</string>
+
+    <!--    mainActivity-->
+    <string name="running_app_main_activity">Фитнес Трекер</string>
+
+    <string name="notif">Фитнес Трекер</string>
+
+    <string name="delete">Удачно удалено</string>
+    <string name="undo_delete">Вернуть</string>
+</resources>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Fitness tracker</string>
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Running Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD9f5fAkELH20KIxRs1S7OJCdtDzOjV1vo</string>
+<!--    statistic fragment-->
+    <string name="total_distance_statistic">Total Distance</string>
+    <string name="_0km_statistic">0km</string>
+    <string name="total_time_statistic">Total Time</string>
+    <string name="total_avg_time_statistic">00:00:00</string>
+    <string name="total_calories_burned_statistic">Total Calories Burned</string>
+    <string name="total_cal_statistic">0kcal</string>
+    <string name="average_speed_statistic">Average Speed</string>
+    <string name="total_average_speed_statistic">0km/h</string>
+
+<!--    run fragment-->
+    <string name="sort_by_run_fragment">Sort by:</string>
+
+<!--    setting_fragment-->
+    <string name="your_name_setting_fragment">Your Name</string>
+    <string name="your_weight_setting_fragment">Your Weight (kg)</string>
+    <string name="apply_changes_btn_setting_fragment">Apply Changes</string>
+
+<!--    setup fragment-->
+    <string name="welcome_text_setup_fragment">Welcome!\nPlease enter your name and weight.</string>
+    <string name="continue_setup_fragment">Continue</string>
+
+<!--    run fragment-->
+    <string name="timer_run_fragment">00:00:00:00</string>
+    <string name="start_btn_run_fragment">Start</string>
+    <string name="finish_run_btn_run_fragment">Finish Run</string>
+    <string name="let_s_go_username_toolbar_run_fragment">Let\'s go, USERNAME!</string>
+
+<!--    item run-->
+    <string name="date_item_run">DATE</string>
+    <string name="time_item_run">TIME</string>
+    <string name="distance_item_run">DISTANCE</string>
+    <string name="avgspeed_item_run">AVGSPEED</string>
+    <string name="calories_item_run">CALORIES</string>
+
+<!--    marker_view-->
+    <string name="date_marker_view">DATE</string>
+    <string name="duration_marker_view">DURATION</string>
+    <string name="avg_speed_marker_view">AVG SPEED</string>
+    <string name="distance_marker_view">DISTANCE</string>
+    <string name="calories_burned_marker_view">CALORIES BURNED</string>
+
+<!--    cancelTrackingDialog-->
+    <string name="cancelTrackingDialog_cancel_run">Cancel the Run?</string>
+    <string name="cancelTrackingDialog_are_you_sure">Are you sure to cancel the Run and delete all this data?</string>
+    <string name="cancelTrackingDialog_yes">Yes</string>
+    <string name="cancelTrackingDialog_no">No</string>
+
+<!--    RunFragment-->
+    <string name="run_fragment_permission">You need to access location permissions</string>
+
+<!--    SettingsFragment-->
+    <string name="settings_fragment_saved">Saved changes</string>
+    <string name="settings_fragment_fill_fields">Please fill out all fields</string>
+    <string name="settings_fragment_toolbar_lets_go">\"Let\'s go, \"</string>
+
+<!--    StatisticsFragment-->
+    <string name="statistics_fragment_description">Average Speed Over Time</string>
+
+    <string name="km">km</string>
+    <string name="kmh">km/h</string>
+    <string name="kcal">k/cal</string>
+    <string name="tracking_fragment_timer">00:00:00:00</string>
+    <string name="tracking_fragment_start">Start</string>
+    <string name="tracking_fragment_stop">Stop</string>
+    <string name="tracking_fragment_save_success">Run save successfully</string>
+<!--    bottomNav-->
+    <string name="your_runs_bottom_nav">Your Runs</string>
+    <string name="statistics_bottom_nav">Statistics</string>
+    <string name="settings_bottom_nav">Settings</string>
+
+<!--    toolbar-->
+    <string name="cancel_run_toolbar">Cancel Run</string>
+
+<!--    mainActivity-->
+    <string name="running_app_main_activity">Running App</string>
+
+    <string name="notif">Fitness Tracker</string>
+    <string name="delete">Successfully deleted run</string>
+    <string name="undo_delete">Undo</string>
+</resources>
